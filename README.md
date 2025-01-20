@@ -64,14 +64,14 @@ pyinstaller --onefile --noconsole --icon=icon.ico yourepass.py
 
 # **Important Notes**
 
-    1. File Location:
-        - Always store YourePass.exe in a dedicated folder because the encrypted password file and Master Key file will be saved in the same directory.
-    2. Security Warning:
-        - This is not a 100% secure program.
-        - Your passwords could potentially be exposed in the case of data leaks or improper use.
-        - Use the program at your own risk.
-    3. Backup:
-        - Regularly back up your password data to prevent accidental loss.
+1. File Location:
+    - Always store YourePass.exe in a dedicated folder because the encrypted password file and Master Key file will be saved in the same directory.
+2. Security Warning:
+    - This is not a 100% secure program.
+    - Your passwords could potentially be exposed in the case of data leaks or improper use.
+    - Use the program at your own risk.
+3. Backup:
+    - Regularly back up your password data to prevent accidental loss.
 
 # **Disclaimer**
 
