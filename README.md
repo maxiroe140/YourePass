@@ -46,31 +46,31 @@ If you prefer to compile the software yourself, follow these steps:
 
 ## Compilation Steps
 
-- 1. Clone or download this repository:
+1. Clone or download this repository:
 ```bash
    git clone https://github.com/maxiroe140/YourePass.git
    cd YourePass
 ```
 
 
-- 2. Use PyInstaller to compile the program into a .exe file:
+2. Use PyInstaller to compile the program into a .exe file:
 ```bash
 pyinstaller --onefile --noconsole --icon=icon.ico yourepass.py
 ```
     - Note: If you don’t have an icon file, remove the --icon=icon.ico parameter.
 
-- 3. The compiled .exe file will appear in the dist folder. Move this file into its own folder.
+3. The compiled .exe file will appear in the dist folder. Move this file into its own folder.
 
 
 # **Important Notes**
 
-    - 1. File Location:
+    1. File Location:
         - Always store YourePass.exe in a dedicated folder because the encrypted password file and Master Key file will be saved in the same directory.
-    - 2. Security Warning:
+    2. Security Warning:
         - This is not a 100% secure program.
         - Your passwords could potentially be exposed in the case of data leaks or improper use.
         - Use the program at your own risk.
-    - 3. Backup:
+    3. Backup:
         - Regularly back up your password data to prevent accidental loss.
 
 # **Disclaimer**
@@ -79,4 +79,4 @@ This program was created purely for fun by **me**. It is not intended for profes
 
 Thank you for trying out **YourePass**! 😊
 Stay safe and enjoy!
-- maxiroe140 -
+~ maxiroe140
