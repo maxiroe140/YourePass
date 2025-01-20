@@ -55,7 +55,7 @@ If you prefer to compile the software yourself, follow these steps:
 
 2. Use PyInstaller to compile the program into a .exe file:
 ```bash
-pyinstaller --onefile --noconsole --icon=icon.ico yourepass.py
+pyinstaller --onefile --noconsole --icon=icon.ico YourePass.py
 ```
     - Note: If you don’t have an icon file, remove the --icon=icon.ico parameter.
 
